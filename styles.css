@@ -1,0 +1,110 @@
+body{
+    background-color: #252a2f;
+    padding: 10px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-logo{
+    margin: auto;
+    text-align: center;
+    width: 20%;
+    margin-bottom: 40px;
+}
+
+.header-logo img{
+    width: 100%;
+}
+
+.search{
+    margin: auto;
+    text-align: center;
+}
+
+.input-search{
+    background-color: white;
+    width: 30%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.input-search input{
+    width: 80%;
+    height: 45px;
+    border: none;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    outline: none;
+
+}
+
+.input-search i{
+    color: red;
+    cursor: pointer;
+}
+
+.oculto{
+    display: none;
+}
+
+.input-search button{
+    width: 10%;
+    border: none;
+    font-size: 18px;
+    background-color: #2678da;
+    cursor: pointer;
+    height: 45px;
+}
+
+.input-search button i{
+    color: white;
+}
+
+.input-search .ocultar{
+    display: none;
+}
+
+.input-search .mostrar{
+    display: flex;
+}
+
+.result-card{
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+}
+
+.result-card .result-img{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+.result-card .result-img img{
+    width: 50%;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .input-search{
+        width: 70%;
+    }
+    .result-card{
+        width: 80%;
+    }
+  }
+
+@media only screen and (max-width: 500px) {
+    .input-search{
+        width: 100%;
+    }
+    .result-card{
+        width: 100%;
+    }
+  }
